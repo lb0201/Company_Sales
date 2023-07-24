@@ -15,7 +15,7 @@ profitList = df['total_profit'].tolist()
 monthList = df['month_number'].tolist()
 
 plt.plot(monthList, profitList, label='Month-wise Profit data of last year')
-plt.xlabel('Month number')
+plt.xlabel('Month Number')
 plt.ylabel('Profit in dollar')
 plt.xticks(monthList)
 plt.title('Company Profit per Month')
