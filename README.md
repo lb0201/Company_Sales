@@ -8,7 +8,7 @@ Python Company Sales Analysis & Visualization
 
 ### Description
 
-Objective: 
+Objective: In this Python analysis project, I delve into an extensive exploration of monthly sales data to gain insights and visualize key aspects of the company's product performance. I answer several pertinent questions, each aimed at illuminating different aspects of our sales data:
 
 Import necessary libraries and datasets:
 
@@ -133,7 +133,7 @@ fig6 = go.Figure()
 fig6.add_trace(go.Bar(x=monthList, y=bathingsoapSalesData, name='Bathing Soap sales data'))
 fig6.update_layout(title='Bathing soap sales data', xaxis_title='Month Number', yaxis_title='Sales units in number')
 ```
-#### Question 6: Read Bathing soap facewash of all months and display it using the Subplot.
+#### Question 6: Find Bathing soap facewash of all months and display it using the Subplot.
 ```python
 df = pd.read_csv(data_directory)
 monthList = df['month_number'].tolist()
@@ -261,12 +261,13 @@ fig.write_html('combined_plots.html')
 ```
 ### Features
 
-* Interative dashboard
-* Data analysis tools
+* Data Import and Manipulation
+* Data Visualization, Interactive Visualization
+* Data Analysis and Calculation
 
 ### Technologies used
 
-* Python
+* Python (Libraries: Pandas, Matplotlib)
 * Plotly 
 * Excel
 
