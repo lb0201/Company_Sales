@@ -1,12 +1,12 @@
-### Date created
+## Date created
 
 March 2023
 
-### Project Title
+## Project Title
 
 Python Company Sales Analysis & Visualization
 
-### Description
+## Description
 
 Objective: In this Python analysis project, I delve into an extensive exploration of monthly sales data to gain insights and visualize key aspects of the company's product performance. I answer several pertinent questions, each aimed at illuminating different aspects of the sales data.
 
@@ -259,22 +259,22 @@ fig.update_layout(height=1000, title_text="Interactive Plotly Visualizations for
 # Save the combined plot as an HTML file
 fig.write_html('combined_plots.html')
 ```
-### Features
+## Features
 
 * Data Import and Manipulation
 * Data Visualization, Interactive Visualization
 * Data Analysis and Calculation
 
-### Technologies used
+## Technologies used
 
 * Python (Libraries: Pandas, Matplotlib)
 * Plotly 
 * Excel
 
-### Files Used
+## Files Used
 
 - company_sales_data.csv
-- combined_plots.html (view live demo by downloading raw file)
+- combined_plots.html: View live demo by downloading raw file
 
 ### Copyright, Authors, Acknowledgements
 
