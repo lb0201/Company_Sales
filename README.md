@@ -21,7 +21,7 @@ from plotly.subplots import make_subplots
 
 data_directory = '/Users/brianlim/Desktop/company_sales_data.csv'
 ```
-#### Question 1: Find the total profit of all months and create a line plot to illustrate the company sales 
+#### Question 1: Find the total profit for all months and create a line plot to illustrate the company sales 
 ```python
 df = pd.read_csv(data_directory)
 profitList = df['total_profit'].tolist()
@@ -74,7 +74,7 @@ fig3.add_trace(go.Scatter(x=monthList, y=toothPasteSalesData, name='ToothPaste S
 fig3.add_trace(go.Scatter(x=monthList, y=bathingsoapSalesData, name='Bathing soap Sales Data', mode='lines+markers'))
 fig3.add_trace(go.Scatter(x=monthList, y=shampooSalesData, name='Shampoo Sales Data', mode='lines+marker
 ```
-#### Question 3: Find toothpaste sales data of each month and display it using a scatterplot. Also, insert a grid in the plot.
+#### Question 3: Find toothpaste sales data for each month and display it using a scatterplot. Also, insert a grid in the plot.
 ```python
 df = pd.read_csv(data_directory)
 monthList = df['month_number'].tolist()
@@ -116,7 +116,7 @@ fig5.add_trace(go.Bar(x=monthList, y=faceCremSalesData, name='Face Cream Sales D
 fig5.add_trace(go.Bar(x=monthList, y=faceWashSalesData, name='Face Wash Sales Data'))
 fig5.update_layout(title='Face wash and Face Cream sales Data', xaxis_title='Month Number', yaxis_title='Sales units in number')
 ```
-#### Question 5: Find the sales data of bathing soap of all months and show it using a bar chart.
+#### Question 5: Find the sales data for bathing soap for all months and show it using a bar chart.
 ```python
 df = pd.read_csv(data_directory)
 monthList = df['month_number'].tolist()
@@ -133,7 +133,7 @@ fig6 = go.Figure()
 fig6.add_trace(go.Bar(x=monthList, y=bathingsoapSalesData, name='Bathing Soap sales data'))
 fig6.update_layout(title='Bathing soap sales data', xaxis_title='Month Number', yaxis_title='Sales units in number')
 ```
-#### Question 6: Find Bathing soap facewash of all months and display it using the Subplot.
+#### Question 6: Find the Bathing soap facewash of all months and display it using the Subplot.
 ```python
 df = pd.read_csv(data_directory)
 monthList = df['month_number'].tolist()
@@ -271,11 +271,11 @@ fig.write_html('combined_plots.html')
 * Plotly 
 * Excel
 
-## Files Used
+## Files 
 
 - company_sales_data.csv
-- combined_plots.html: View live demo by downloading raw file
+- combined_plots.html: View the live demo by downloading the raw file
 
 ### Copyright, Authors, Acknowledgements
 
-I would like to thank GMU's data visualization course for giving me the opportunity to learn and develop my python skills.
+I would like to thank GMU's data visualization course for giving me the opportunity to learn and develop my Python skills.
