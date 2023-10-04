@@ -8,7 +8,7 @@ Python Company Sales Analysis & Visualization
 
 ## Description
 
-In this Python analysis project, I delve into an extensive exploration of monthly sales data to gain insights and visualize key aspects of the company's product performance. I answer several pertinent questions, each aimed at illuminating different aspects of the sales data.
+In this Python analysis project, I've delved into an extensive exploration of monthly sales data to gain insights and visualize key aspects of the company's product performance. I've answered several pertinent questions, each aimed at illuminating different aspects of the sales data.
 
 #### Import necessary libraries and datasets:
 
