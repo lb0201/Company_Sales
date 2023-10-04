@@ -10,7 +10,7 @@ Python Company Sales Analysis & Visualization
 
 In this Python analysis project, I delve into an extensive exploration of monthly sales data to gain insights and visualize key aspects of the company's product performance. I answer several pertinent questions, each aimed at illuminating different aspects of the sales data.
 
-Import necessary libraries and datasets:
+#### Import necessary libraries and datasets:
 
 ```python
 
@@ -269,7 +269,6 @@ fig.write_html('combined_plots.html')
 
 * Python (Libraries: Pandas, Matplotlib)
 * Plotly 
-* Excel
 
 ## Files 
 
